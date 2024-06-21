@@ -3,7 +3,7 @@ import React from 'react'
 export const TopBar = () => {
   return (
     <div>
-        <div className='mx-20 text-white flex justify-between' >
+        <div className='mx-20 flex justify-between' >
             <div id='image'>
                 <svg width="195" height="64" viewBox="0 0 195 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="72" cy="32" r="15.5" stroke="white" stroke-width="5"/>
