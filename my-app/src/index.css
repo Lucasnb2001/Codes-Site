@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* logo_codes */
+.logo{
+  position: absolute;
+  width: 195px;
+  height: 64px;
+  left: 80px;
+  top: 39px;
+}
+
+
