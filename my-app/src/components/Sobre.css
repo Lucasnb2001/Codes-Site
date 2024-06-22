@@ -1,5 +1,4 @@
 .Sobre {
-  margin-top: 14%;
   padding: 50px;
   background-color: #000000;
   color: white;
@@ -25,7 +24,7 @@
 .lupinha {
   position: absolute; 
   right: 0; 
-  top: 30%;
+  top: 0;
 
 }
 
@@ -33,5 +32,5 @@
 
   position: absolute;
   right:5%;
-  top:95%;
+  top:65%;
 }
