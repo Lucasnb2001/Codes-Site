@@ -5,7 +5,7 @@ import { Sobre } from './components/Sobre';
 
 function App() {
   return (
-    <div className="App bg-black h-screen pt-10 text-white">
+    <div className="App bg-black h-screen pt-10 text-white flex flex-col ">
       <TopBar/>
       <Cover/>
       <Sobre/> 
