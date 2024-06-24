@@ -3,6 +3,7 @@ import { Cover } from './components/Cover';
 import { TopBar } from './components/TopBar';
 import { Sobre } from './components/Sobre';
 import { TimeSection } from './components/Time';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Cover/>
       <Sobre/> 
       <TimeSection/> 
+      <Footer/>
     </div>
   );
 }

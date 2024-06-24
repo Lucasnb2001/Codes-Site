@@ -6,7 +6,7 @@ import { ReactComponent as Blocudos } from '../assets/blocudos.svg';
 
 export const Sobre = () => {
   return (
-    <div className="Sobre text-center">
+    <div id='sobre' className="Sobre text-center">
       <GrupoPesquisaSVG className="mb-4" />
       <div className="content-wrapper">
         <div className="text-content">

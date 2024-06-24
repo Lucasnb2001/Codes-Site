@@ -16,19 +16,19 @@ export const TopBar = () => {
             </div>
             <div id='option-menu' className='hidden md:flex gap-10 my-4 font-semibold'>
                 <div>
-                    Sobre
+                    <a href='#sobre'>Sobre</a>
                 </div>
                 <div>
-                    Time
+                    <a href='#time'>Time</a>
                 </div>
                 <div>
-                    Projetos
+                    <a href='#projetos'>Projetos</a>
                 </div>
                 <div>
-                    Notícias
+                    <a href='#noticias'>Notícias</a>
                 </div>
                 <div>
-                    Contato
+                    <a href='#contato'>Contato</a>
                 </div>
             </div>
         </div>
