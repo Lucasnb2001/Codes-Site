@@ -3,10 +3,10 @@ import './Cover.css'
 
 export const Cover = () => {
   return (
-    <div className='flex justify-between'>
+    <div className='flex mb-100 pt-10 justify-between min-h-screen w-full'>
         
-        <div id='squares' className='flex mt-20'>
-            <div>
+        <div id='squares' className='flex mt-3 bg-black'>
+            <div id= 'squareContainer' className='mb-20'>
                 <svg width="296" height="375" viewBox="0 0 296 375" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M108.053 102.676L23.382 185.939C108.053 185.939 108.053 185.939 109.664 272.653L191.633 187.664C108.053 185.939 108.053 185.939 108.053 102.676Z" fill="#888DF2"/>
                 <path d="M108.37 49.1811C108.37 30.1201 92.9182 14.668 73.8572 14.668H-29.6818C-48.7429 14.668 -64.1949 30.12 -64.1949 49.181V152.72C-64.1949 171.781 -48.7429 187.233 -29.6819 187.233H73.8571C92.9181 187.233 108.37 171.781 108.37 152.72V49.1811Z" fill="black"/>

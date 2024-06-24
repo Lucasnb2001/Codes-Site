@@ -1,0 +1,36 @@
+.Sobre {
+  padding: 50px;
+  background-color: #000000;
+  color: white;
+  padding-top: 9%;
+  position: relative;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.Sobre p {
+  font-size: 20px;
+  padding-top: 5%;
+}
+
+.text-content {
+  text-align: left;
+  max-width: 55%;
+}
+
+.lupinha {
+  position: absolute; 
+  right: 0; 
+  top: 0;
+
+}
+
+.blocudos {
+
+  position: absolute;
+  right:5%;
+  top:65%;
+}
