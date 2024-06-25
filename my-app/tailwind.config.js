@@ -4,7 +4,8 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {'josefin': ['Josefin Sans', 'sans-serif'],
+      },
   },
   plugins: [],
 }

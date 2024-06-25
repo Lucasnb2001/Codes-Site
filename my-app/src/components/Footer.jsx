@@ -1,11 +1,12 @@
 import React from 'react'
+import logoCin from '../assets/cin.png';
 
 export const Footer = () => {
   return (
     <div className=' bg-white text-black pt-24 flex' >
         <div className='ml-4  md:ml-64  w-96'>
             <div>
-                CIN logo
+                <img src={logoCin} alt="CIN Logo" className='h-16 w-auto pl-5' />
             </div>
             <p className='my-4'>
             Av. Jornalista Anibal Fernandes, s/n <br></br>
@@ -19,7 +20,7 @@ export const Footer = () => {
             email@cin.ufpe.br
             </p>
         </div>
-        <div className='mt-5'>
+        <div className='mt-16 ml-10 '>
             <svg width="221" height="72" viewBox="0 0 221 72" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="81.4538" cy="36.2017" r="17.5352" stroke="black" stroke-width="5.65652"/>
             <path d="M67.8784 49.7773L55.4341 62.2217" stroke="black" stroke-width="7.91913" stroke-linecap="round"/>
