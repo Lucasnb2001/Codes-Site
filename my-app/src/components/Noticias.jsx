@@ -19,7 +19,7 @@ const Noticias = () => {
   };
 
   return (
-    <div className="relative py-10 min-h-[105vh] flex items-center" style={{ backgroundColor: '#DFEFA6' }}>
+    <div id='noticias' className="relative py-10 min-h-[105vh] flex items-center" style={{ backgroundColor: '#DFEFA6' }}>
       <div className="max-w-screen-2xl mx-auto overflow-x-auto whitespace-nowrap scrollbar-hide pl-10 pr-10" ref={containerRef}>
         <div className="inline-block">
           <Noticia 

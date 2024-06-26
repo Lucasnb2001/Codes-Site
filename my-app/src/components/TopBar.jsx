@@ -2,8 +2,7 @@ import React from 'react';
 
 export const TopBar = () => {
   
-  
-    const handleScroll = (event, id) => {
+  const handleScroll = (event, id) => {
     event.preventDefault();
     const element = document.getElementById(id);
     if (element) {
@@ -11,12 +10,13 @@ export const TopBar = () => {
     }
   };
 
-
   return (
     <div className='fixed top-0 left-0 w-full bg-black z-50 pt-10 pb-8 font-josefin'>
       <div className='mx-20 flex justify-between'>
         <div id='image'>
           <svg
+            onClick={(e) => handleScroll(e, 'squares')}
+            className='cursor-pointer'
             width="195"
             height="64"
             viewBox="0 0 195 64"
@@ -33,19 +33,19 @@ export const TopBar = () => {
         </div>
         <div id='option-menu' className='hidden md:flex gap-10 my-4 font-semibold font-josefin'>
           <div>
-            <a href='#sobre' onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
+            <a className='hover:text-custom-green' href='#sobre' onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
           </div>
           <div>
-            <a href='#time' onClick={(e) => handleScroll(e, 'time')}>Time</a>
+            <a className='hover:text-custom-green' href='#time' onClick={(e) => handleScroll(e, 'time')}>Time</a>
           </div>
           <div>
-            <a href='#projetos' onClick={(e) => handleScroll(e, 'projetos')}>Projetos</a>
+            <a className='hover:text-custom-green' href='#projetos' onClick={(e) => handleScroll(e, 'projetos')}>Projetos</a>
           </div>
           <div>
-            <a href='#noticias' onClick={(e) => handleScroll(e, 'noticias')}>Notícias</a>
+            <a className='hover:text-custom-green' href='#noticias' onClick={(e) => handleScroll(e, 'noticias')}>Notícias</a>
           </div>
           <div>
-            <a href='#contato' onClick={(e) => handleScroll(e, 'contato')}>Contato</a>
+            <a className='hover:text-custom-green' href='#contato' onClick={(e) => handleScroll(e, 'contato')}>Contato</a>
           </div>
         </div>
       </div>

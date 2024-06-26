@@ -3,7 +3,7 @@ import logoCin from '../assets/cin.png';
 
 export const Footer = () => {
   return (
-    <div className=' bg-white text-black pt-24 flex' >
+    <div id='contato' className=' bg-white text-black pt-24 flex' >
         <div className='ml-4  md:ml-64  w-96'>
             <div>
                 <img src={logoCin} alt="CIN Logo" className='h-16 w-auto pl-5' />

@@ -5,8 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {'josefin': ['Josefin Sans', 'sans-serif'],
+      colors: {
+        'custom-green': '#DFEFA6',
       },
+      },
+      
   },
-  plugins: [],
+  plugins: [ require('@tailwindcss/line-clamp'),],
 }
 
