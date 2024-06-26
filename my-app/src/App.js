@@ -4,6 +4,7 @@ import { TopBar } from './components/TopBar';
 import { Sobre } from './components/Sobre';
 import { TimeSection } from './components/Time';
 import { Footer } from './components/Footer';
+import  Noticias from './components/Noticias';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Cover/>
       <Sobre/> 
       <TimeSection/> 
+      <Noticias/>
       <Footer/>
     </div>
   );
