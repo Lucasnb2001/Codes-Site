@@ -23,31 +23,31 @@ const Noticias = () => {
       <div className="max-w-screen-2xl mx-auto overflow-x-auto whitespace-nowrap scrollbar-hide pl-10 pr-10" ref={containerRef}>
         <div className="inline-block">
           <Noticia 
-            title="Título da notícia" 
+            title="Notícia 1" 
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
           />
         </div>
         <div className="inline-block">
           <Noticia 
-            title="Título da notícia" 
+            title="Notícia 2" 
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
           />
         </div>
         <div className="inline-block">
           <Noticia 
-            title="Título da notícia" 
+            title="Notícia 3" 
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
           />
         </div>
         <div className="inline-block">
           <Noticia 
-            title="Título da notícia" 
+            title="Notícia 4" 
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
           />
         </div>
         <div className="inline-block">
           <Noticia 
-            title="Título da notícia" 
+            title="Notícia 5" 
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type..."
           />
         </div>
