@@ -1,21 +1,22 @@
 import './App.css';
-import { Homepage } from './components/Homepage';
-import { MenuNoticias } from './components/MenuNoticias';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Cover } from './components/Cover';
+import { TopBar } from './components/TopBar';
+import { Sobre } from './components/Sobre';
+import { TimeSection } from './components/Time';
+import { Footer } from './components/Footer';
+import  Noticias from './components/Noticias';
 
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    Component: Homepage,
-  },
-  {
-    path: "/news",
-    Component: MenuNoticias,
-  },
-  
-
-]);
-export default function App() {
-  return <RouterProvider router={router} fallbackElement={<p>Loading...</p>} />;
+function App() {
+  return (
+    <div className="App bg-black h-screen pt-10 text-white flex flex-col ">
+      <TopBar/>
+      <Cover/>
+      <Sobre/> 
+      <TimeSection/> 
+      <Noticias/>
+      <Footer/>
+    </div>
+  );
 }
+
+export default App;
