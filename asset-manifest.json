@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codes.github.io/static/css/main.afe55154.css",
-    "main.js": "/codes.github.io/static/js/main.6fba063e.js",
+    "main.js": "/codes.github.io/static/js/main.20652492.js",
     "static/media/cin.png": "/codes.github.io/static/media/cin.e0a0d1aeac018ade9a3c.png",
     "static/media/O GRUPO DE PESQUISA.svg": "/codes.github.io/static/media/O GRUPO DE PESQUISA.8dbbb62592d4d29f39780773b783b2a2.svg",
     "static/media/O TIME.svg": "/codes.github.io/static/media/O TIME.2d4157f1bad6bd59bb540a95c5d62c07.svg",
@@ -9,10 +9,10 @@
     "static/media/blocudos.svg": "/codes.github.io/static/media/blocudos.92cc0aadd86f1a46effe8ac210bfd390.svg",
     "index.html": "/codes.github.io/index.html",
     "main.afe55154.css.map": "/codes.github.io/static/css/main.afe55154.css.map",
-    "main.6fba063e.js.map": "/codes.github.io/static/js/main.6fba063e.js.map"
+    "main.20652492.js.map": "/codes.github.io/static/js/main.20652492.js.map"
   },
   "entrypoints": [
     "static/css/main.afe55154.css",
-    "static/js/main.6fba063e.js"
+    "static/js/main.20652492.js"
   ]
 }
