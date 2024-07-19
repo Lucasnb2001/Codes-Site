@@ -1,34 +1,36 @@
 /* src/noticias.css */
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-  
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  
-  .scroll-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #4a5568; /* bg-gray-800 */
-    color: white;
-    padding: 0.5rem;
-    border-radius: 9999px; /* rounded-full */
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  .scroll-button:hover {
-    opacity: 1;
-  }
-  
-  .scroll-button-left {
-    left: 0;
-  }
-  
-  .scroll-button-right {
-    right: 0;
-  }
-  
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #4a5568; /* bg-gray-800 */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 9999px; /* rounded-full */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.scroll-button:hover {
+  opacity: 1;
+}
+
+.scroll-button-left {
+  left: 0;
+}
+
+.scroll-button-right {
+  right: 0;
+}
+body, .josefin-sans {
+  font-family: 'Josefin Sans', sans-serif;
+}

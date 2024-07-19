@@ -1,18 +1,17 @@
+// src/Routing.js
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MenuNoticias } from './components/MenuNoticias';
-import { Homepage } from './components/Homepage';
-
+import App from './App';
 
 const Routing = () => {
-    return(
-        <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Homepage/>} />
-            <Route path="/news" element={<MenuNoticias/>} />
-            
-        </Routes>
-        </BrowserRouter>
-    );
+  return (
+    <BrowserRouter basename="/codes.github.io">
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/news" element={<MenuNoticias />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default Routing;
