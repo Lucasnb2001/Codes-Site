@@ -44,10 +44,12 @@ const Noticias = () => {
         ) : (
           news.map((item) => (
             <div key={item.id} className="inline-block">
-              <Noticia 
-                title={item.title}
-                text={item.content}
-              />
+              <Link to={`/news/${item.id}`} className="inline-block">
+                <Noticia 
+                  title={item.title}
+                  text={item.content}
+                />
+              </Link>
             </div>
           ))
         )}
