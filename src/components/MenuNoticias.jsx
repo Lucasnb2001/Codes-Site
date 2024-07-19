@@ -3,6 +3,9 @@ import Noticia from './Noticia';
 import './noticias.css';
 import { Link } from 'react-router-dom';
 import './MenuNoticias.css';
+import { TopBar } from './TopBar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'; 
 
 export const MenuNoticias = () => {
   const [news, setNews] = useState([]);
@@ -25,6 +28,12 @@ export const MenuNoticias = () => {
 
   return (
     <div className="all-noticias-container">
+       <Link to="/codes.github.io" className="back-arrow1">
+        
+        </Link>
+      <TopBar />
+      <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+     
       {error ? (
         <div>Error fetching news data: {error}</div>
       ) : (

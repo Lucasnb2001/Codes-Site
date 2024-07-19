@@ -26,3 +26,16 @@
     align-items: center;
   }
   
+  .back-arrow1 {
+    position: absolute;
+    top: 30vh;
+    left: 10vh;
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    z-index: 10000;
+  }
+  
+  .back-arrow1:hover {
+    color: #DFEFA6;; 
+  }
+  

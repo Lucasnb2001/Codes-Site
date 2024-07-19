@@ -22,27 +22,27 @@
     },
     {
       "id": "4",
-      "title": "Notícia 3",
-      "content": "Conteúdo detalhado da notícia 3."
+      "title": "Notícia 4",
+      "content": "Conteúdo detalhado da notícia 4."
 ,      "author":"George Darmiton"
       
     },
     {
       "id": "5",
-      "title": "Notícia 3",
-      "content": "Conteúdo detalhado da notícia 3.",
+      "title": "Notícia 5",
+      "content": "Conteúdo detalhado da notícia 5.",
       "author":"George Darmiton"
     },
     {
       "id": "6",
-      "title": "Notícia 3",
-      "content": "Conteúdo detalhado da notícia 3.",
+      "title": "Notícia 6",
+      "content": "Conteúdo detalhado da notícia 6",
       "author":"George Darmiton"
     },
     {
       "id": "7",
-      "title": "Notícia 3",
-      "content": "Conteúdo detalhado da notícia 3.",
+      "title": "Notícia 7",
+      "content": "Conteúdo detalhado da notícia 7.",
       "author":"George Darmiton"
     }
   ]

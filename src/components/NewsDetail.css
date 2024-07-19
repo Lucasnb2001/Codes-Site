@@ -40,4 +40,17 @@
     margin-right: 10vh;
     
   }
+
+
+.back-arrow {
+  position: absolute;
+  top: 25vh;
+  left: 34vh;
+  color: rgb(1, 0, 0); 
+  text-decoration: none;
+}
+
+.back-arrow:hover {
+  color: #DFEFA6; 
+}
   

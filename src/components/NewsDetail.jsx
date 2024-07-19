@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom'; // Importando Link para navegação
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'; // Importando o ícone de seta
 import './NewsDetail.css';
 import { TopBar } from './TopBar';
 
@@ -27,14 +29,15 @@ function NewsDetail() {
     </React.Fragment>
   ));
   
-
   return (
-    
     <div className="news-detail-container">
-       <TopBar /> 
+      <TopBar />
       <div className="news-content">
+        <Link to="/news" className="back-arrow">
+          <FontAwesomeIcon icon={faArrowLeft} size="2x" />
+        </Link>
         <h1>{newsItem.title}</h1>
-        <p>Por: {newsItem.author},   {newsItem.Data}</p>
+        <p>Por: {newsItem.author}, {newsItem.Data}</p>
         <p>{formattedContent}</p>
       </div>
     </div>
