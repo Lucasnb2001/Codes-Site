@@ -1,26 +1,49 @@
-// src/components/MenuNoticias.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Noticia from './Noticia';
 import './noticias.css';
 import { Link } from 'react-router-dom';
-import './MenuNoticias.css'
+import './MenuNoticias.css';
 
-  export const MenuNoticias = () => {
-    return (
-      <div className="all-noticias-container">
+export const MenuNoticias = () => {
+  const [news, setNews] = useState([]);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch('/codes.github.io/newsData.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => setNews(data))
+      .catch(error => {
+        console.error('Error fetching news data:', error);
+        setError(error.message);
+      });
+  }, []);
+
+  return (
+    <div className="all-noticias-container">
+      {error ? (
+        <div>Error fetching news data: {error}</div>
+      ) : (
         <div className="news-grid">
-          {[1, 2, 3, 4, 5, 6, 7].map((item, index) => (
-            <Link to={`/news/${index + 1}`}
-                  key={index}
-                  className="news-item"
-                  style={{ textDecoration: 'none', color: 'inherit' }}>
+          {news.map((item) => (
+            <Link 
+              to={`/news/${item.id}`}
+              key={item.id}
+              className="news-item"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
               <Noticia 
-                title={`Título da notícia ${index + 1}`} 
-                text="Lorem Ipsum is simply dummy text of the printing and typesetting industry..."
+                title={item.title}
+                text={item.content}
               />
             </Link>
           ))}
         </div>
-      </div>
-    );
-  };
+      )}
+    </div>
+  );
+};

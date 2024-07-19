@@ -33,21 +33,22 @@ export const TopBar = () => {
         </div>
         <div id='option-menu' className='hidden md:flex gap-10 my-4 font-semibold font-josefin'>
           <div>
-            <a className='hover:text-custom-green' href='#sobre' onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
+            <a className='text-white hover:text-custom-green' href='#sobre' onClick={(e) => handleScroll(e, 'sobre')}>Sobre</a>
           </div>
           <div>
-            <a className='hover:text-custom-green' href='#time' onClick={(e) => handleScroll(e, 'time')}>Time</a>
+            <a className='text-white hover:text-custom-green' href='#time' onClick={(e) => handleScroll(e, 'time')}>Time</a>
           </div>
           <div>
-            <a className='hover:text-custom-green' href='#projetos' onClick={(e) => handleScroll(e, 'projetos')}>Projetos</a>
+            <a className='text-white hover:text-custom-green' href='#projetos' onClick={(e) => handleScroll(e, 'projetos')}>Projetos</a>
           </div>
           <div>
-            <a className='hover:text-custom-green' href='#noticias' onClick={(e) => handleScroll(e, 'noticias')}>Notícias</a>
+            <a className='text-white hover:text-custom-green' href='#noticias' onClick={(e) => handleScroll(e, 'noticias')}>Notícias</a>
           </div>
           <div>
-            <a className='hover:text-custom-green' href='#contato' onClick={(e) => handleScroll(e, 'contato')}>Contato</a>
+            <a className='text-white hover:text-custom-green' href='#contato' onClick={(e) => handleScroll(e, 'contato')}>Contato</a>
           </div>
         </div>
+
       </div>
     </div>
   );
