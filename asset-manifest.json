@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/codes.github.io/static/css/main.91f68e03.css",
-    "main.js": "/codes.github.io/static/js/main.20652492.js",
+    "main.css": "/codes.github.io/static/css/main.511a0d74.css",
+    "main.js": "/codes.github.io/static/js/main.49e2f42e.js",
     "static/media/cin.png": "/codes.github.io/static/media/cin.e0a0d1aeac018ade9a3c.png",
     "static/media/O GRUPO DE PESQUISA.svg": "/codes.github.io/static/media/O GRUPO DE PESQUISA.8dbbb62592d4d29f39780773b783b2a2.svg",
     "static/media/O TIME.svg": "/codes.github.io/static/media/O TIME.2d4157f1bad6bd59bb540a95c5d62c07.svg",
     "static/media/lupinha.svg": "/codes.github.io/static/media/lupinha.96c7b6b73f40d2715952a6834f620c6a.svg",
     "static/media/blocudos.svg": "/codes.github.io/static/media/blocudos.92cc0aadd86f1a46effe8ac210bfd390.svg",
     "index.html": "/codes.github.io/index.html",
-    "main.91f68e03.css.map": "/codes.github.io/static/css/main.91f68e03.css.map",
-    "main.20652492.js.map": "/codes.github.io/static/js/main.20652492.js.map"
+    "main.511a0d74.css.map": "/codes.github.io/static/css/main.511a0d74.css.map",
+    "main.49e2f42e.js.map": "/codes.github.io/static/js/main.49e2f42e.js.map"
   },
   "entrypoints": [
-    "static/css/main.91f68e03.css",
-    "static/js/main.20652492.js"
+    "static/css/main.511a0d74.css",
+    "static/js/main.49e2f42e.js"
   ]
 }

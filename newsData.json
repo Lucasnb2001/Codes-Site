@@ -1,0 +1,49 @@
+[
+    {
+      "id": "1",
+      "title": "Detecção de discurso de ódio & Inteligência Artificial",
+      "content": "A primeira rede social a atingir o patamar de um milhão de usuários foi a MySpace, em 2004. Outras surgiram de lá para cá. Facebook, YouTube e WhatsApp possuem mais de 2 bilhões de usuários cada uma. Em menos de 20 anos, vimos um rápido crescimento delas e, dada nossa presença maciça nessas redes, não é à toa que a forma como as usamos esteja moldando diversos aspectos do nosso comportamento. As mudanças abrangem a forma como nos comunicamos, trabalhamos, aprendemos e nos divertimos.\n\nEstamos online e tendo que lidar com tal novidade. Mas a fácil disseminação e a crença de anonimato fazem das mídias sociais um ambiente muito utilizado para a propagação de discursos de ódio, que pode ser definido como ataque ou ameaça a outras pessoas motivados por raça, gênero, nacionalidade, orientação sexual, entre outros.\n\nAs redes sociais rejeitam o discurso de ódio e indicam que usuários que promovam esse tipo de discurso podem sofrer sanções. O volume de postagens nessas redes é imenso. Só o X (antigo Twitter) veicula, em média, seis mil postagens por segundo, ou seja, 500 milhões de postagens diárias. Estes são dados de apenas do X. Logo, a ideia de se ter intervenção humana, com a finalidade de verificar possíveis infrações, torna-se inviável. Além da dificuldade associada ao volume, a tarefa de indicar se um discurso é de ódio ou não, requer pessoas especializadas, pois um discurso muitas vezes pode ser confundido com sarcasmo, humor, ou linguagem ofensiva que, em muitos casos, pode ser protegida por lei. Dadas essas especificidades, realizar a moderação das postagens em redes sociais usando humanos é um trabalho desafiador, além de lento e não escalável. Logo, é necessário automatizar o processo e passar a tarefa para programas de computador que são replicáveis e respondem rapidamente.\n\nA tarefa de detectar discurso de ódio pode ser descrita de maneira simples: dado um conteúdo, deseja-se que o sistema responda sim, se o conteúdo contiver discurso de ódio ou não. Mas, a computação tradicional, determinística e que trabalha segundo regras estáticas, não é uma ferramenta adequada para a tarefa em questão.\n\nDaí emerge a aprendizagem de máquina, que é um ramo da Inteligência Artificial capaz de aprender a partir de dados. Ou seja, ao invés de ser explicitamente programada com regras extraídas de especialista humanos, as máquinas de aprendizagem capturam informações diretamente dos dados (postagens contendo ou não discurso de ódio) de maneira autônoma e automática, sendo assim, capazes de lidar com a incerteza inerente ao processo, além de poderem ser ajustadas para se adaptar às mudanças. As redes sociais já se valem de máquinas que aprendem para detectar e tentar impedir a disseminação de discurso de ódio.\n\nPorém, ainda há bastante espaço para ajustes e melhorias, pois a detecção automática de discurso de ódio é uma tarefa desafiadora e mal-definida; ainda não há consenso sobre como discurso de ódio deve ser definido. Neste cenário, é promissor vislumbrar estratégias capazes de sinergicamente integrar algoritmos e pessoas, capturando o melhor de cada um.\n\nGeorge Darmiton, professor titutar do CIn/ UFPE e membro da Academia Pernambucana de Ciências",
+      "author":"George Darmiton ",
+      "Data":"07/03/2024 03:00"
+    },
+      {
+      "id": "2",
+      "title": "Fake News & Inteligência Artificial",
+      "content": "A imensa quantidade de conteúdos veiculados nas redes sociais traz desafios enormes. Um deles é o combate às fake news. Criar e disseminar deliberadamente conteúdos falsos pode causar danos à sociedade e, muitas vezes, o objetivo dessa disseminação é a obtenção de algum ganho, seja financeiro ou vantagem política. Isso é definido como “desinformação”..\n\nUsuários comuns, ao serem bombardeados com conteúdos falsos, não percebem que o conteúdo é enganoso e o disseminam amplificando a desinformação em sua rede de contatos. Pode-se pensar ainda na divulgação de conteúdos verdadeiros com a intenção de, por exemplo, manchar a reputação de alguém ou de alguma organização. Ou ainda, em conteúdos com sátira, que é uma forma humorada de criticar pessoas e ideias e não tem a intenção de ser levada a sério.\n\nDe maneira geral, as situações relatadas são popularmente categorizadas como fake news (notícias falsas) e podem ser responsáveis por colocar vidas em perigo, comprometer eleições e, de maneira mais ampla, delinear o curso da história. Mas, salienta-se que em alguns casos, o conteúdo veiculado não contém informação falsa; pode ser uma informação colocada fora de contexto com o propósito de torná-la mais crível. E, também, alguns conteúdos nem notícias são.\n\nA inspeção manual de conteúdos veiculados na Internet é inviável não apenas pela quantidade, mas também pela necessidade de especialistas humanos com pouco viés para realizar a curadoria de tais conteúdos.\n\nLogo, é preciso automatizar o processo! Dentre as tecnologias atuais, a Inteligência Artificial (IA) apresenta-se como a mais viável para realizar a tarefa de separar rapidamente conteúdos falsos de verdadeiros.\n\nSendo mais específico, a Aprendizagem de Máquina (ramo da IA) é capaz de extrair informações de dados e, assim, construir uma representação conveniente para categorizar conteúdos potencialmente falsos. São duas as principais fases na construção de uma máquina com a capacidade de detectar fake news: treinamento e uso. Na fase de treinamento, vários exemplos de conteúdos falsos e de conteúdos verdadeiros são apresentados à máquina. Com acesso a esses conteúdos, a máquina consegue criar uma representação interna que encontra atributos importantes para diferenciá-los. Na fase de uso, a máquina está pronta para receber conteúdos, possivelmente oriundos das redes sociais, e classificá-los em uma das possíveis classes: falso ou verdadeiro, por exemplo.\n\nAlém de fornecer uma classificação, deseja-se que a máquina também seja capaz de explicar como derivou tal resposta. Esse processo de explicação ajuda não apenas o ser humano, que pode entender os motivos que levaram à decisão, mas também pode ser usado por especialistas em ciência de dados como o intuito de melhorar a precisão da própria máquina.\n\nDa mesma forma que é possível utilizar IA para detectar fake news, também é possível usar a IA para automatizar o processo de criação de conteúdos falsos que imitam conteúdos verdadeiros. Esta automatização do processo de gerar “desinformação” caracteriza-se por uma mudança de escala na produção, pois as máquinas são capazes de gerar rapidamente muito mais conteúdos falsos do que especialistas humanos.  De certa forma, a IA está democratizando a criação de “desinformação”, pois qualquer um com acesso a um chatbot (programa que “conversa” com o usuário”) pode usá-lo para gerar conteúdos com alto grau de plausibilidade. Ou seja, diferenciar o que é real do que é falso está ficando mais difícil.\n\nEstamos testemunhando uma guerra de informação sem precedente. Não é trivial  reprimir conteúdos falsos sem conflitar com a liberdade de expressão por também reprimir conteúdos oriundos de organizações que têm realizado um trabalho coerente até então.\n\nPara contribuir no combate às fake news devemos pensar mais e compartilhar menos!\n\n\nGeorge Darmiton Professor Titular do Centro de Informática da UFPE e membro da Academia Pernambucana de Ciências",
+      "author":"George Darmiton",
+      "Data":"07/03/2024 03:00"
+
+    },
+    {
+      "id": "3",
+      "title": "Notícia 3",
+      "content": "Conteúdo detalhado da notícia 3."
+      ,"author":"George Darmiton"
+    },
+    {
+      "id": "4",
+      "title": "Notícia 4",
+      "content": "Conteúdo detalhado da notícia 4."
+,      "author":"George Darmiton"
+      
+    },
+    {
+      "id": "5",
+      "title": "Notícia 5",
+      "content": "Conteúdo detalhado da notícia 5.",
+      "author":"George Darmiton"
+    },
+    {
+      "id": "6",
+      "title": "Notícia 6",
+      "content": "Conteúdo detalhado da notícia 6",
+      "author":"George Darmiton"
+    },
+    {
+      "id": "7",
+      "title": "Notícia 7",
+      "content": "Conteúdo detalhado da notícia 7.",
+      "author":"George Darmiton"
+    }
+  ]
+  
