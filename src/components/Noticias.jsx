@@ -66,7 +66,7 @@ const Noticias = () => {
         &gt;
       </button>
       <div className="absolute bottom-10 w-full text-right bg-gray-200 pr-10" style={{ backgroundColor: '#DFEFA6' }}>
-        <Link to="/AllNoticias" className="text-black hover:underline font-bold">
+        <Link to="/news" className="text-black hover:underline font-bold">
           Ver todas as notícias
         </Link>
       </div>
